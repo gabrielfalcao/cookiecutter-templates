@@ -1,0 +1,9 @@
+{
+  "full_name": "Gabriel Falcao",
+  "email": "gfalcao@newstore.com",
+  "github_username": "newstore",
+  "project_name": "hovercrafty",
+  "app_name": "hovercrafty",
+  "project_short_description": "Extensible Application DSL for Hoverfly, Flask and any other backend",
+  "version": "0.0.1"
+}
