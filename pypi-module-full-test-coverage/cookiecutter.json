@@ -2,8 +2,10 @@
   "full_name": "Gabriel Falcao",
   "email": "gfalcao@newstore.com",
   "github_username": "newstore",
-  "project_name": "hovercrafty",
-  "app_name": "hovercrafty",
-  "project_short_description": "Extensible Application DSL for Hoverfly, Flask and any other backend",
+  "project_name": "Clever Named Project",
+  "travis_password": "E5KbnpQau7jv/mpHWAs19Y5zBaOHyBXRCGAsTS0S5lEOp/g8EEbjyt5rL7lcIeFAYarIds719BktC5iO+1AQbXOYicS5vDfiVRdLaJ5HPA4v6zyyQzwadFKSqE1Tv11AG9xkFDfBEPLTQmSrpI5cJIY5UoafDnMZe4CbLVETTw8=",
+  "app_name": "clever_named_project",
+  "copyright_year": "2018",
+  "project_short_description": "A generic python module ready to be open sourced under MIT",
   "version": "0.0.1"
 }

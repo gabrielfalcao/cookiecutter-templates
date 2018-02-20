@@ -22,3 +22,7 @@ pypi:
 	@twine upload dist/*.tar.gz
 
 .PHONY: docs
+
+
+clean:
+	@find . -name '*.pyc' -delete

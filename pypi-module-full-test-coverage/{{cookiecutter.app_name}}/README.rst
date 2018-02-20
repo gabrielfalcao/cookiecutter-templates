@@ -1,9 +1,4 @@
-.. Flask Chemist documentation master file, created by
-   sphinx-quickstart on Sun Nov 19 22:16:39 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Chemist
+{{cookiecutter.project_name}}
 =======
 
 {{cookiecutter.project_short_description}}
@@ -40,35 +35,16 @@ Basic Usage
 
 .. code:: python
 
-    from {{cookiecutter.app_name}} import (
-        Model, db, MetaData,
-        get_or_create_engine,
+    from {{cookiecutter.app_name}} import readme
+
+    # demo your module
+
+    readme.then.replace.this.usage.with_a_real_example_of(
+        app_name="{{cookiecutter.app_name}}",
+        full_name="{{cookiecutter.full_name}}",
+        email="{{cookiecutter.email}}",
+        project_short_description="{{cookiecutter.project_short_description}}",
+        github_username="{{cookiecutter.github_username}}",
+        project_name="{{cookiecutter.project_name}}",
+        version="{{cookiecutter.version}}",
     )
-
-    metadata = MetaData()
-    engine = get_or_create_engine('sqlite:///example.db')
-
-    class BlogPost(Model):
-          table = db.Table('blog_post',metadata,
-              db.Column('id', db.Integer, primary_key=True),
-              db.Column('title', db.Unicode(200), nullable=False),
-              db.Column('content', db.UnicodeText, nullable=False),
-         )
-
-    post1 = BlogPost.create(title='Hello World', content='\n'.join([
-        'Introduction...',
-        'Supporting Theory 1...',
-        'Supporting Theory 2...',
-        'Supporting Theory 3...',
-        'Conclusion',
-    ]))
-
-
-    for post in BlogPost.all():
-        print(post.title, post.id)
-
-
-Examples
---------
-
-1. `flask app <https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}/blob/master/examples/flask-app.py>`_
